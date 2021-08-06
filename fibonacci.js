@@ -3,4 +3,4 @@ let fibonacci = function(n) {
     return Math.round(Math.pow(goldenRatio, n) / Math.sqrt(5));
 }
 
-console.log(fibonacci(70));
+console.log(fibonacci(20));  // 6765
