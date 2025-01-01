@@ -13,7 +13,7 @@ def login():
             res = generate_items.create()
             return f'<div>Цвет предмета <b>{res[num]}</b></div>'
         except ValueError:
-            return '<div>Введены некорректные данные</div>'
+            return '<div>Введены некорректные данные!</div>'
 
     return '''
             <form action="/" method="post">
